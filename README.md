@@ -43,6 +43,7 @@
 ```
 
 通过对比Android 6.0前后的源码发现，FinalizerWatchdogDaemon调用的是父类Deamon中的stop方法，区别在于：
+
 //6.0之前
 ```
 threadToStop.interrupt();
